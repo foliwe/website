@@ -25,13 +25,14 @@ SECRET_KEY = 'django-insecure-75iu=m7dl(0tk8fm0itqi&bm%t9u45p3xn1-1s&$a4i$y8#$bq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['websitehub.pythonanywhere.com']
 
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
 # Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'schools'
 
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
